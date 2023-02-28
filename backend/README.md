@@ -83,3 +83,12 @@ http://localhost:5000/api/users/login
 ```
 http://localhost:5000/api/users/me?
 ```
+
+.env at mainfile
+
+```
+NODE_ENV = development
+PORT = 5000
+MONGO_URI = mongodb+srv://kittisakhanheam:<password>@kope.xa3md8m.mongodb.net/<database>?retryWrites=true&w=majority
+JWT_SECRET = abc123
+```
